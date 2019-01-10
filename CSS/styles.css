@@ -1,0 +1,86 @@
+body{
+    background:#fff;
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width:30%; 
+    float: left; 
+    padding-left: 20px;
+}
+.game{
+    width:70%; 
+    float: left;
+     text-align: right;
+      padding-right:20px;
+}
+.dc{
+    font-size: 15px;
+    text-align: right;
+}
+aside{
+    width:200px;
+    background: #2c3e50;  
+    height: 100%;
+    float: left;
+     
+}
+aside a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.section{
+    background: #95a5a6;    
+    color: #000;
+    height: 100%;
+    font-size: 20px;
+    width: calc(100% - 200px);
+    float: left;
+    padding: 40px
+}
+header{
+    background-color: #000;
+    padding:5px;
+    height: 50px;
+    overflow: hidden;
+    line-height: 40px;
+}
+header h1{
+    color: #3498db;
+}
+.cs{
+    color: #2980b9;
+    font-size:20px;
+}
+header a{
+  text-decoration: none;
+  color: blue;
+}
+header a:hover{
+    color: white;
+
+}
+#left{
+text-align: left;
+}
+.csdc{
+    font-size:px;
+}
+.main-content{
+    height: 100vh;
+    background: blue;
+}
+footer{
+    background: #000;
+}
