@@ -1,44 +1,56 @@
+*{
+       box-sizing: border-box;
+}
 body{
     background:#fff;
     font-size: 14px;
     margin: 0;
     color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-*{
-    box-sizing: border-box;
-}
-
-h1,h2{
+h1,h2,h3,h4,h5,h6{
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 .logo{
-    width:30%; 
+    width:50%; 
     float: left; 
     padding-left: 20px;
 }
-.game{
-    width:70%; 
+nav{
+    width:50%; 
     float: left;
-     text-align: right;
+     text-align: right; 
       padding-right:20px;
+      
 }
-.dc{
-    font-size: 15px;
+ul{
+  list-style: none;
+  color: #e1b12c;   
+}
+.list-menu{
+    padding: 9px;  
+}
+.list-main{
     text-align: right;
 }
+/* .dc{
+    font-size: 15px;
+    text-align: right;
+} */
 aside{
     width:200px;
     background: #2c3e50;  
     height: 100%;
     float: left;
-     
+    padding-left: 10px;
+    padding-top: 35px;
+    text-align: center;
 }
 aside a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 20px; 
 }
 .section{
     background: #95a5a6;    
@@ -60,12 +72,14 @@ header h1{
     color: #3498db;
 }
 .cs{
-    color: #2980b9;
+    color: #e1b12c;
     font-size:20px;
 }
 header a{
   text-decoration: none;
-  color: blue;
+  color: #3498db;
+  font-weight: bolder;
+  font-size: 20px;
 }
 header a:hover{
     color: white;

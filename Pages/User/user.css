@@ -5,7 +5,11 @@
 }
 body{
     background:#bdc3c7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Montserrat', sans-serif;
+}
+.container-main{
+  width: 60%;
+  margin: auto;
 }
 header{
     background-color: #000;
@@ -19,7 +23,7 @@ header a{
     text-decoration: none;
 }
 .cs{
-    color: #2980b9;
+    color: #e1b12c;
     font-size:20px;
 }
 
@@ -42,10 +46,10 @@ input[type=text]:focus, input[type=password]:focus {
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
-  /* width: 60%; */
+  width: 60%;
 }
 .registerbtn {
-  background-color: red;
+  background-color: #34495e;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -64,17 +68,20 @@ a {
 .signin {
   background-color: #f1f1f1;
   text-align: center;
+  /* position: relative;
+  top: 120px;
+  bottom: 100px; */
 }
-option[value] {
+#business{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   padding: 15px;
-  margin: 5px 0 15px 0;
+  margin: 5px 0 10px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
 }
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+#move{
+  margin-right: 30px;
 }

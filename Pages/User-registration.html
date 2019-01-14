@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="stylesheet" href="../CSS/styles.css"> -->
     <link rel="stylesheet" href="../Pages/User/user.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
                 </div>
             </a> 
              </header>
+             <div class="container-main">
         <form>
                 <div class="container">
                   <h1>Register</h1>
@@ -31,13 +33,15 @@
                   <label for="psw"><b> Password</b></label>
                   <input type="password" placeholder="Password" name="psw" required>
                   <br>
-                  <label for="business"> <b> Roles</b>
+                  <label for="business"> <b id="move"> Roles</b>
 
                       <select id="business" name="business">
-                        <option value="First Choice">First Choice</option>
-                        <option value="Second Choice">Second Choice</option>
-                        <option value="Third Choice">Third Choice</option>
-                        <option value="Fourth Choice">Fourth Choice</option>
+                          <option value="First Choice">None</option>
+                        <option value="First Choice">Business analyst</option>
+                        <option value="Second Choice">Programmer</option>
+                        <option value="Third Choice">Project Manager</option>
+                        <option value="Fourth Choice">Business Intelligence</option>
+                        <option value="Fifth Choice">Web Designers</option>
                       </select>
                       
                       </label>
@@ -63,11 +67,12 @@
                   <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                   <button type="submit" class="registerbtn">Register</button>
                 </div>
-              
-                <div class="container signin">
-                  <p>Already have an account? <a href="#">Sign in</a>.</p>
-                </div>
               </form>
+            </div>  
+              <footer class="container signin">
+                  <p>Already have an account? <a href="../Pages/Issues-registration.html">Sign in</a>.</p>
+                </footer>
               
+         
 </body>
 </html>
