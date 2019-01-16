@@ -43,7 +43,7 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-hr {
+hr { 
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
   width: 60%;
@@ -154,7 +154,7 @@ hr {
   cursor: pointer;
   /* width: 10%; */
   opacity: 0.9;
-  box-shadow: 1px 3px #000;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -203,4 +203,41 @@ a {
 }
 #move{
   margin-right: 30px;
+}
+.main-content{
+  height: 100vh;
+  /* background: blue; */
+}
+aside{
+width:200px;
+background: #2c3e50;  
+height: 100%;
+float: left;
+padding-left: 10px;
+padding-top: 35px;
+text-align: center;
+}
+aside a{
+text-decoration: none;
+color: #fff;
+font-size: 20px; 
+}
+.section{
+background: #95a5a6;    
+color: #000;
+height: 100%;
+font-size: 20px;
+width: calc(100% - 200px);
+float: left;
+padding: 40px
+}
+ul{
+list-style: none;
+color: #e1b12c;   
+}
+.list-menu{
+  padding: 9px;  
+}
+.list-main{
+  text-align: left;
 }
