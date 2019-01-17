@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,6 +8,7 @@ body{
     background:#2c3e50;
     font-family: 'Montserrat', sans-serif;
     color: #ecf0f1;
+    overflow: hidden;
     
 }
 .container-main{
@@ -56,7 +57,7 @@ input[type=text], input[type=password] {
   hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
-    /* width: 60%; */
+   
   }
   .registerbtn {
     background-color: #bdc3c7;
@@ -81,9 +82,7 @@ input[type=text], input[type=password] {
     background-color: #f1f1f1;
     text-align: center;
     margin: 0;
-    /* position: relative;
-    top: 130px;
-    bottom: 150px; */
+   
   }
   #business{
     position: relative;
@@ -101,26 +100,24 @@ input[type=text], input[type=password] {
   .move1{
       margin-right: 8px;
   }
-  /* p{
-    color: #000;
-  } */
+  
   .main-content{
     height: 100vh;
-    /* background: blue; */
+   
 }
 aside{
   width:200px;
-  background: #f5f6fa;   
+  background: #f5f6fa;  
   height: 100%;
   float: left;
   padding-left: 10px;
   padding-top: 35px;
-  text-align: center;
 }
 aside a{
   text-decoration: none;
   color: #000;
-  font-size: 20px; 
+  font-size: 15px; 
+  font-weight: bold;
 }
 .section{
   background: #d0ecee;  
@@ -133,11 +130,102 @@ aside a{
 }
 ul{
   list-style: none;
-  color: #e1b12c;   
+  color: #616060;    
 }
 .list-menu{
     padding: 9px;  
 }
 .list-main{
     text-align: left;
+} 
+
+
+
+.logo{
+  width:50%; 
+  float: left; 
+  padding-left: 20px;
+  font-size: 20px;
 }
+nav{
+   width:50%; 
+   float: left;
+   text-align: right; 
+   padding-right:20px;
+   color: #fff;
+  
+}
+ul{
+list-style: none;
+color: #616060;   
+}
+.list-menu{
+  padding: 9px;  
+}
+.list-main{
+  text-align: left;
+}
+aside{
+  width:200px;
+  background: #f5f6fa;  
+  height: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+aside a{
+  text-decoration: none;
+  color: #000;
+  font-size: 15px; 
+  font-weight: bold;
+}
+.section{
+  background: #d0ecee;    
+  color: #000;
+  height: 100%;
+  font-size: 20px;
+  width: calc(100% - 200px);
+  float: left;
+  padding: 40px;
+  background: #d0ecee;
+}
+header{
+  background-color: #000;
+  padding:5px;
+  height: 50px;
+  overflow: hidden;
+  line-height: 40px;
+}
+header h1{
+  color: #3498db;
+  font-size: 20px;
+}
+.cs{
+  color:#d0ecee;
+  font-size:12px;
+  font-weight: lighter;
+}
+header a{
+text-decoration: none;
+color: #cac9c9;
+/* font-weight: bold; */
+font-size: 15px;
+margin: 10px
+}
+header a:hover{
+  color:#e1b12c; 
+
+}
+#left{
+text-align: left;
+}
+.csdc{
+  font-size:px;
+}
+.main-content{
+  height: 100vh;
+  background: #d0ecee;
+}
+footer{
+  background: #000;
+} 

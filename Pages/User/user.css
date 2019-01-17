@@ -7,32 +7,34 @@
 body{
   background:#bdc3c7;
   font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
 }
-/* body{
-  background:#2c3e50;
-  font-family: 'Montserrat', sans-serif;
-  color: #ecf0f1;
-} */
 .container-main{
-width: 60%;
-margin: auto;
+  /* background: #bdc3c7; */
+  /* box-shadow: 3px 3px rgba(0, 0, 0, 0.2); */
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 header{
   background-color: #000;
   padding:5px;
-  
+  height: 50px;
+  overflow: hidden;
+  line-height: 40px;
 }
 header h1{
   color: #3498db;
+  font-size: 20px;
 }
 header a{
   text-decoration: none;
 }
 .cs{
-  color: #e1b12c;
-  font-size:20px;
+  color:#d0ecee;
+  font-size:12px;
+  font-weight: lighter;
 }
-
 .container {
 margin: 20px;
 padding: 16px;
@@ -57,7 +59,6 @@ input[type=text]:focus, input[type=password]:focus {
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
-  /* width: 60%; */
 }
 .registerbtn {
   background-color: #34495e;
@@ -66,7 +67,6 @@ hr {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  /* width: 10%; */
   opacity: 0.9;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 
@@ -75,21 +75,6 @@ hr {
 .registerbtn:hover {
   opacity:1;
 }
-/* .registerbtn {
-  background-color: #bdc3c7;
-  color: black;
-  font-weight: bolder;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 20%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-} */
 a {
   color: dodgerblue;
 }
@@ -120,21 +105,20 @@ a {
 }
 .main-content{
   height: 100vh;
-  /* background: blue; */
 }
 aside{
-width:200px;
-background: #f5f6fa; 
-height: 100%;
-float: left;
-padding-left: 10px;
-padding-top: 35px;
-text-align: center;
+  width:200px;
+  background: #f5f6fa;  
+  height: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-top: 35px;
 }
 aside a{
-text-decoration: none;
-color: #000;
-font-size: 20px; 
+  text-decoration: none;
+  color: #000;
+  font-size: 15px; 
+  font-weight: bold;
 }
 .section{
  background: #d0ecee;    
@@ -147,10 +131,11 @@ padding: 40px
 }
 ul{
 list-style: none;
-color: #e1b12c;   
+color: #616060;    
 }
 .list-menu{
-  padding: 9px;  
+  padding: 9px; 
+  font-size: 15px; 
 }
 .list-main{
   text-align: left;

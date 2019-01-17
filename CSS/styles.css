@@ -10,6 +10,7 @@ body{
     margin: 0;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -19,13 +20,15 @@ h1,h2,h3,h4,h5,h6{
     width:50%; 
     float: left; 
     padding-left: 20px;
+    font-size: 20px;
 }
 nav{
-    width:50%; 
-    float: left;
+     width:50%; 
+     float: left;
      text-align: right; 
-      padding-right:20px;
-      
+     padding-right:20px;
+     color: #fff;
+    
 }
 ul{
   list-style: none;
@@ -38,18 +41,17 @@ ul{
     text-align: left;
 }
 aside{
-    width:200px;
+    width:230px;
     background: #f5f6fa;  
     height: 100%;
     float: left;
-    padding-left: 10px;
-    padding-top: 35px;
-    text-align: center;
+    padding-left: 25px;
+    padding-top: 30px;
 }
 aside a{
     text-decoration: none;
     color: #000;
-    font-size: 20px; 
+    font-size: 15px; 
     font-weight: bold;
 }
 .section{
@@ -57,10 +59,31 @@ aside a{
     color: #000;
     height: 100%;
     font-size: 20px;
-    width: calc(100% - 200px);
+    width: calc(100% - 230px);
     float: left;
-    padding: 40px
+    padding: 40px;
+    background: #d0ecee;
+  /* position: relative;
+    -webkit-animation: mymove 5s infinite;  */
+    /* Safari 4.0 - 8.0 */
+  /* animation: mymove 5s infinite; */
 }
+/* Safari 4.0 - 8.0 */
+/* @-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  } */
+  .section h1{
+      /* background: red; */
+      text-align: center;
+      position: relative;
+     top: 220px;
+  }
 header{
     background-color: #000;
     padding:5px;
@@ -70,170 +93,31 @@ header{
 }
 header h1{
     color: #3498db;
+    font-size: 20px;
 }
 .cs{
-    color: #e1b12c;
-    font-size:20px;
+    color:#d0ecee;
+    font-size:12px;
+    font-weight: lighter;
 }
 header a{
   text-decoration: none;
-  color: #3498db;
-  font-weight: bolder;
-  font-size: 20px;
+  color: #cac9c9;
+  /* font-weight: bold; */
+  font-size: 15px;
+  margin: 10px
 }
 header a:hover{
-    color: white;
+    color:#e1b12c; 
 
 }
 #left{
 text-align: left;
 }
-.csdc{
-    font-size:px;
-}
 .main-content{
     height: 100vh;
-    background: blue;
+    background: #d0ecee;
 }
 footer{
     background: #000;
 } 
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
-body{
-    background:#2c3e50;
-    font-family: 'Montserrat', sans-serif;
-    color: #ecf0f1;
-    
-}
-.container-main{
-  width: 60%;
-  margin: auto;
-}
-.form-class{
-  font-size: 100%;
-}
-header{
-    background-color: #000;
-    padding:5px;
-    
-}
-header h1{
-    color: #3498db;
-}
-header a{
-    text-decoration: none;
-}
-.cs{
-    color: #e1b12c;
-    font-size:20px;
-}
-#red{
-  color: #000;
-}
-.container {
-  margin: 20px;
-  padding: 16px;
-  text-align: center;
-}
-input[type=text], input[type=password] {
-    width: 50%;
-    padding: 15px;
-    margin: 5px 0 15px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-    
-  }
-  .registerbtn {
-    background-color: #bdc3c7;
-    color: black;
-    font-weight: bolder;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    opacity: 0.9;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-  }
-  
-  .registerbtn:hover {
-    opacity:1;
-  }
-  a {
-    color: dodgerblue;
-  }
-  .signin {
-    background-color: #f1f1f1;
-    text-align: center;
-    margin: 0;
-   
-  }
-  #business{
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
-    padding: 15px;
-    margin: 5px 0 10px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  .move{
-    margin-right: 50px;
-  }
-  .move1{
-      margin-right: 8px;
-  }
-
-  .main-content{
-    height: 100vh;
-  
-}
-aside{
-  width:200px;
-  background: #2c3e50;  
-  height: 100%;
-  float: left;
-  padding-left: 10px;
-  padding-top: 35px;
-  text-align: center;
-}
-aside a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px; 
-}
-.section{
-  background: #95a5a6;    
-  color: #000;
-  height: 100%;
-  font-size: 20px;
-  width: calc(100% - 200px);
-  float: left;
-  padding: 40px
-}
-ul{
-  list-style: none;
-  color: #e1b12c;   
-}
-.list-menu{
-    padding: 9px;  
-}
-.list-main{
-    text-align: left;
-} */
